@@ -1,0 +1,47 @@
+.body   {
+    background-color: black;
+}
+h3  {
+    text-align: center;
+    padding: 40px;
+}
+i   {
+    color: white;
+}
+#color  {
+    background-color: #2dbbf4;
+}
+p{
+    color: white;
+}
+li{
+    color: #ffffff;
+}
+i{
+    background-color: #2dbbf4;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#cuerpo {
+    gap: 0px 120px;
+}
+#primary   {
+    background-color: skyblue;
+    padding: 10px;
+}
+#icon   {
+    justify-content: center;
+}
+
+#second {
+    background-color: none;
+}
+#Destacados {
+    width: 263px;
+    height: 200px;
+}
+footer  {
+    background-color: #2dbbf4;
+    padding: 40px;
+}
