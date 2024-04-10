@@ -23,9 +23,11 @@ i{
     padding-left: 100px;
     padding-right: 100px;
 }
-#cuerpo {
-    gap: 0px 120px;
-}
+@media screen and (max-width: 980px) {
+    div#cuerpo {
+    display: none;
+    }
+    }
 #primary   {
     background-color: skyblue;
     padding: 10px;
