@@ -1,5 +1,9 @@
 .body   {
-    background-color: black;
+    background-color: #000000;
+}
+scroll-container {
+    display: block;
+    scroll-behavior: smooth;
 }
 h3  {
     text-align: center;
@@ -22,6 +26,9 @@ i{
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
+}
+#cuerpo {
+    gap: 0px 150px;
 }
 @media screen and (max-width: 980px) {
     div#cuerpo {
