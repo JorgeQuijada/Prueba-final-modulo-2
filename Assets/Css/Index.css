@@ -29,6 +29,10 @@ i{
 #cuerpo {
     gap: 0px 150px;
     justify-content: center;
+    margin-left: -80px;
+}
+h2  {
+    margin-right: -80px;
 }
 #primary   {
     background-color: skyblue;
