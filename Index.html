@@ -24,13 +24,13 @@
                                 <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Quienes Somos</a>
+                                <a class="nav-link text-white" href="#cuerpo">Quienes Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white" href="#">Destacados</a>
+                                <a class="nav-link text-white" href="#imagen">Destacados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled text-white" aria-disabled="true">Contacto</a>
+                                <a class="nav-link disabled text-white" aria-disabled="true" href="forma">Contacto</a>
                             </li>
                         </ul>   
                     </div>
@@ -39,7 +39,7 @@
         </div>
 
         <scroll-container>
-        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./Assets/Img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -124,12 +124,14 @@
             </div>
         </div>
 
-    <section class="row justify-content-center py-2">
+    <section id="imagen" class="row justify-content-center py-2">
         <h1 class="text-center text-white py-3">DESTACADOS</h1>
         <div class="py-2" style="width: 18rem;">
-            <img id="Destacados" src="./Assets/Img/card1.jpg" class="card-img-top" alt="...">
+            <div id="Destacados">
+                <img id="img1" src="./Assets/Img/card1.jpg" class="card-img-top" alt="...">
+            </div>
             <div id="color" class="card-body px-2">
-                <p class="card-text py-3">
+                <p id="texto1" class="card-text py-3">
                     Lorem ipsum dolor sit amet.
                     consectetur adipisicing elit. sed do 
                     euismod temporincididunt ut labore
@@ -139,9 +141,11 @@
         </div>
 
         <div class="py-2" style="width: 18rem;">
-            <img id="Destacados" src="./Assets/Img/card2.jpg" class="card-img-top" alt="...">
+            <div id="Destacados">
+                <img id="img2" src="./Assets/Img/card2.jpg" class="card-img-top" alt="...">
+            </div>
             <div id="color" class="card-body px-2">
-                <p class="card-text py-3">
+                <p id="texto2" class="card-text py-3">
                     Lorem ipsum dolor sit amet.
                     consectetur adipisicing elit. sed do 
                     euismod temporincididunt ut labore
@@ -151,9 +155,11 @@
         </div>
 
         <div class="py-2" style="width: 18rem;">
-            <img id="Destacados" src="./Assets/Img/card3.jpg" class="card-img-top" alt="...">
+            <div id="Destacados">
+            <img id="img3" src="./Assets/Img/card3.jpg" class="card-img-top" alt="...">
+            </div>
             <div id="color" class="card-body px-2">
-                <p class="card-text py-3">
+                <p id="texto3" class="card-text py-3">
                     Lorem ipsum dolor sit amet.
                     consectetur adipisicing elit. sed do 
                     euismod temporincididunt ut labore
@@ -163,9 +169,11 @@
         </div>
 
         <div class="py-2" style="width: 18rem;">
-            <img id="Destacados" src="./Assets/Img/card4.jpg" class="card-img-top" alt="...">
+            <div id="Destacados">
+            <img id="img4" src="./Assets/Img/card4.jpg" class="card-img-top" alt="...">
+            </div>
             <div id="color" class="card-body px-2">
-                <p class="card-text py-3">
+                <p id="texto4" class="card-text py-3">
                     Lorem ipsum dolor sit amet.
                     consectetur adipisicing elit. sed do 
                     euismod temporincididunt ut labore
@@ -179,7 +187,7 @@
         <h3>Contáctame</h3>
     </div>
 
-    <section class="forms m-5">
+    <section id="forma" class="forms m-5">
         <div>
             <p>Nombre</p>
             <div class="form-floating mb-3">
@@ -206,8 +214,14 @@
     </section>
     </scroll-container>
 
-    <footer class="text-center">
-        <p>Viajes Chile</p>
+    <footer>
+        <div class="text hstack gap-2" style="font-size: 30px;">
+            <p>Viajes Chile</p>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

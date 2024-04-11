@@ -49,8 +49,10 @@ footer  {
     background-color: #2dbbf4;
     padding: 40px;
 }
+
 @media screen and (max-width: 980px) {
     div#cuerpo {
     display: none;
     }
 }
+
