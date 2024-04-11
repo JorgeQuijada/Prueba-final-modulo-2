@@ -1,10 +1,6 @@
 .body   {
     background-color: #000000;
 }
-scroll-container {
-    display: block;
-    scroll-behavior: smooth;
-}
 h3  {
     text-align: center;
     padding: 40px;
@@ -26,32 +22,23 @@ i{
     text-align: center;
     width: 400px;
 }
-#cuerpo {
+#cuerpo2 {
     gap: 0px 150px;
     justify-content: center;
-    margin-left: -80px;
-}
-h2  {
-    margin-right: -80px;
+    margin-left: 100px;
+    margin-right: 200px;
 }
 #primary   {
     background-color: skyblue;
     padding: 10px;
 }
-#second {
-    background-color: none;
-}
-#Destacados {
-    width: 263px;
-    height: 200px;
-}
 footer  {
     background-color: #2dbbf4;
-    padding: 40px;
+    padding: 20px;
 }
 
 @media screen and (max-width: 980px) {
-    div#cuerpo {
+    div#cuerpo1 {
     display: none;
     }
 }
