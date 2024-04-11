@@ -9,40 +9,31 @@ h3  {
     text-align: center;
     padding: 40px;
 }
-i   {
-    color: white;
-}
 #color  {
     background-color: #2dbbf4;
 }
 p{
     color: white;
 }
-li{
+.list-unstyled  {
     color: #ffffff;
+    width: 400px;
 }
 i{
     background-color: #2dbbf4;
     padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
 }
 #cuerpo {
     gap: 0px 150px;
+    justify-content: center;
 }
-@media screen and (max-width: 980px) {
-    div#cuerpo {
-    display: none;
-    }
-    }
 #primary   {
     background-color: skyblue;
     padding: 10px;
 }
-#icon   {
-    justify-content: center;
-}
-
 #second {
     background-color: none;
 }
@@ -53,4 +44,9 @@ i{
 footer  {
     background-color: #2dbbf4;
     padding: 40px;
+}
+@media screen and (max-width: 980px) {
+    div#cuerpo {
+    display: none;
+    }
 }
