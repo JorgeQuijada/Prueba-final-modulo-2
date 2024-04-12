@@ -1,40 +1,10 @@
 .body   {
     background-color: #000000;
+    overflow-x: hidden;
 }
 h3  {
     text-align: center;
     padding: 40px;
-}
-#color  {
-    background-color: #2dbbf4;
-}
-p{
-    color: white;
-}
-.list-unstyled  {
-    color: #ffffff;
-    width: 400px;
-}
-i{
-    background-color: #2dbbf4;
-    padding: 10px;
-    color: #ffffff;
-    text-align: center;
-    width: 400px;
-}
-#cuerpo2 {
-    gap: 0px 150px;
-    justify-content: center;
-    margin-left: 100px;
-    margin-right: 200px;
-}
-#primary   {
-    background-color: skyblue;
-    padding: 10px;
-}
-footer  {
-    background-color: #2dbbf4;
-    padding: 20px;
 }
 
 @media screen and (max-width: 980px) {
@@ -42,4 +12,37 @@ footer  {
     display: none;
     }
 }
+#cuerpo2 {
+    gap: 0px 150px;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.list-unstyled  {
+    color: #ffffff;
+    width: 400px;
+}
+#pri-i   {
+    background-color: #2dbbf4;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
+}
 
+#sec-i  {
+    color: #ffffff;
+    font-size: 30px;
+}
+#color  {
+    background-color: #2dbbf4;
+}
+p{
+    color: white;
+}
+footer  {
+    background-color: #2dbbf4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
