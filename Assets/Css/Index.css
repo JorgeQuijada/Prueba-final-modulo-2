@@ -2,11 +2,13 @@
     background-color: #000000;
     overflow-x: hidden;
 }
+html {
+    scroll-behavior: smooth;
+}
 h3  {
     text-align: center;
     padding: 40px;
 }
-
 @media screen and (max-width: 980px) {
     div#cuerpo1 {
     display: none;
@@ -29,7 +31,6 @@ h3  {
     text-align: center;
     width: 400px;
 }
-
 #sec-i  {
     color: #ffffff;
     font-size: 30px;
